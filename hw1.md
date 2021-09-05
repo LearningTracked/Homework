@@ -42,6 +42,25 @@
 
 9. 發出pull request
 
-10. 待確認後merge 
+10. 待確認且merge後
 
-11. 刪除branch
+11. 切換到master
+
+    ```
+    git checkout master
+    ```
+
+12. 將新的專案pull下來 
+
+    ```
+    git pull origin master
+    ```
+
+13. 刪除branch
+
+    ```
+    git branch -d new-branch
+    ```
+
+    
+
